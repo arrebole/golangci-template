@@ -1,0 +1,27 @@
+run:
+  tests: true
+
+issues:
+  max-issues-per-linter: 0
+  max-same-issues: 0
+
+linters:
+  disable-all: true
+  enable:
+    - depguard
+    - dogsled
+    - dupl
+    - gochecknoinits
+    - gocyclo
+    - gofmt
+    - goimports
+    - goprintffuncname
+    - govet
+    - interfacer
+    - misspell
+    - nolintlint
+    - scopelint
+    - typecheck
+    - unconvert
+    - unparam
+    - whitespace
